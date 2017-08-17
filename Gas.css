@@ -1,0 +1,172 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Calibri');
+/*----------------------------------------------------------------
+	Branding Colour
+----------------------------------------------------------------*/
+h1, h2 {
+	color: #c5000d;
+	font-size: 40px;
+}
+body, .contact_detail, .contact_detail a, .contact_detail a:hover, .contact_detail a:focus {
+	color: #000;
+}
+#header a,#header2a:before,header span, header a:hover, #banner h1, #banner p, #services p{
+	color: #ffffff;
+}
+#services h3 {
+    color: #fec992;
+    font-weight:700}
+hr {
+	margin-top:-10px;
+	color:#c5000d;
+	border: 1px solid;
+}
+.formbuilder-form label, h1, h2, h3, .btn, .formbuilder-form input#submit-form,.formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .open>.dropdown-toggle.btn , #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:active, .open>.dropdown-toggle.btn {
+    text-transform: uppercase;}
+header a,#header2b a,.btn, .btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn, .formbuilder-form input#submit-form,.formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn , #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, .formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:active, .open>.dropdown-toggle.btn, #contact2f, #contact2e, .contact_detail a, .contact_detail a:hover, .contact_detail a:focus {
+    text-decoration: none;}
+
+/*----------------------------------------------------------------
+- Form -*/
+.form, #quote_form_form, #extraFormsContainer .modal-dialog {
+	border-radius: 5px;
+    box-shadow: 0 10px 15px 2px rgba(0,0,0,.2);
+    background-color: rgba(248, 248, 247, 0.77);
+}
+.formbuilder-form label {
+    font-weight: 300;
+    color: #d20011;
+}
+.formbuilder-form input, .formbuilder-form textarea, .formbuilder-form select, .formbuilder-form select option {
+    color: black;
+    background: #eee;
+    border: 1px solid #ccc;
+}
+/*----------------------------------------------------------------
+- Buttons -*/
+.btn, .formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form  {
+    color: #ffffff;
+    background-color: #c5000d;
+    box-shadow: 0 0.075em 0.075em rgba(0,0,0,0.5);
+    border-radius: 15px;}
+@media (min-width: 711px) {
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn, .formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover  {
+    background-color: #b0050f;
+    z-index: 2;
+    transition: all 200ms ease-in;
+    transform: scale(1.1);}
+}
+/*----------------------------------------------------------------
+	Custom Styles
+----------------------------------------------------------------*/
+
+/*----------------------------------------------------------------
+- Font Family -*/
+h1, h2, h3, h4,.btn, .formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+	font-family: 'Calibri', Arial, Helvetica, sans-serif;
+}
+/*----------------------------------------------------------------
+- Header -*/
+#header{
+    box-shadow: 0 0.075em 0.075em rgba(28, 27, 27, 0.5);
+    border-top: 10px solid #fff;
+    padding: 0px;
+}
+#header1 img {
+    box-shadow: 0 0.075em 0.075em rgba(28, 27, 27, 0.5);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+#header2{
+    padding-top:0px;
+    padding-bottom:0px;
+}
+#header2b {
+	font-size:23px;
+}
+#header2a:before{
+	content: '\f098';
+	padding-right: 5px;
+}
+/*----------------------------------------------------------------
+- Banner -*/
+#banner h1, #banner p,#header2a:before,header span,header a, #header2b a {
+    text-shadow: 0 0.075em 0.075em rgba(28, 27, 27, 0.5);
+}
+#banner h1 {
+    font-size:70px;
+}
+#banner p {
+	font-weight: 400;
+}
+.banner_cover {
+    opacity: 0.5;
+    background-color:#0e0e0e;}
+#banner, #banner h1 {
+    margin:0;
+    text-align: center;
+}
+/*----------------------------------------------------------------
+- Services -*/
+#services{
+    border-top: 5px solid #c5000d;
+    border-bottom: 5px solid #c5000d;}
+#service1,#service2,#service3,#service4{
+    transition: 0.2s 0.2s ease-out;
+    padding: 25px 10px 25px 10px;}
+#service1:hover,#service2:hover,#service3:hover,#service4:hover{
+    transform: scale(1.1);
+    background:rgba(255, 255, 255, 0.3);}
+    
+/*----------------------------------------------------------------
+- Content -*/
+#content .img-responsive {
+    box-shadow: 2px 2px 5px #666;
+    border: 10px solid #fff;
+    transition: 0.2s 0.2s ease-out;}
+#content .img-responsive:hover {
+    transform: scale(1.05);
+}
+#content {
+    border-top: 10px solid #c5000d;
+}
+/*----------------------------------------------------------------
+- Contact -*/
+    
+/*----------------------------------------------------------------
+    Footer
+----------------------------------------------------------------*/
+footer *, footer a , footer {
+    color: #fff;}
+footer {
+    background-color: #f5772d;
+    padding: 25px 0 25px;}
+/*----------------------------------------------------------------
+	Hide Blocks
+----------------------------------------------------------------*/
+#contact1b,#contact2b,#contact2c,#contact2d,#contact2e,#content5,#content6 {display: none;}
+/*----------------------------------------------------------------
+	Media Queries
+----------------------------------------------------------------*/
+
+@media only screen and (max-width: 767px) and (min-width: 0px)  {
+    #banner, #banner h1 {text-align:center;}
+    #banner h1 {font-size:50px;}
+    .content_block{padding-bottom:20px;}
+    #service1:hover,#service2:hover,#service3:hover,#service4:hover{transform: scale(1.0);}
+}
+@media (max-width: 767px) {#service3 {clear:left }}
+
+/*- Animation & Extras-*/
+/*#wrapper {display: flex; flex-direction: column;}
+#services { order: 2; }
+#banner { order: 1; }
+#content { order: 3; }
+#contact { order: 4; }
+footer { order: 5; }*/
+#banner1 {
+    animation:move 2s ease;
+    width: 100%;}
+	@-webkit-keyframes move {
+	  from {transform: scale(0.8);opacity:0;}
+	  to {transform: scale(1.0);opacity:1;}}
